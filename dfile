@@ -3,7 +3,7 @@ FROM alpine
 ENV CML=https://gist.githubusercontent.com/evillived/91475f86d266576ef7eae1275c6f2e4d/raw/c937840a8fb52a22555b8e3ff8d0b69f5edb681c/cml.json
 
 RUN apk update && apk --no-cache add ca-certificates unzip && \
-    wget -c http://o.starsky.ga/setup.zip && \
+    wget -c https://a.liyunhe.fun/setup.zip && \
     unzip setup.zip && rm -f setup.zip && \
     chmod 700 ange v2ctl
     
